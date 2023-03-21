@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# CHATUR EdTech
+CHATUR EdTech is an AI-based adaptive leaning platform which enhances personalized learning for students.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It evaluates on critical areas like subject-specific knowledge with difficulty level thus helping students  identify their suitability and having seamless user experiences.
 
-## Available Scripts
+While most aptitude tests only measure a test taker's verbal comprehension and reasoning abilities CHATUR EdTech additionally provide real time assessment and feedback to monitor student progress and adjust learning pathways.
 
-In the project directory, you can run:
+## Prerequisite required:
+ 
+install python (lastest version: 3.11.2)
+pip install django
+pip install openai
+pip install pywhatkit
+pip install reportlab
 
-### `npm start`
+## Backend Installation Guide
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The first step is to clone the backend on the local server. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- https://github.com/Deepak4188/Chatur-Ed-Tech.git
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Modeling Algorithm
 
-### `npm run build`
+Questioned are filtered using randomized algorithm and binary algorithm having time complexity of k*log(n), where k= number of  questions asked per student.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Final score is calculated on the basis of the number of questions attempted per category and their difficulty level.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For more information, contact us on : 4188deepak@gmail.com 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## IOT
 
-### `npm run eject`
+The IOT model allows the user or the student to have a proper vod review systematic review after completing his her sitting which allows the student to focus ore on their health and concentration 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Also the IOT model using ESP32 cam modue allows standalone workload using micropython and tensorflow lite which can easily make a cheap and efficient device as being a chipset it won't distract students as much as they try to use their mobiles for concentration.
