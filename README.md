@@ -36,15 +36,20 @@ The IOT model allows the user or the student to have a proper vod review systema
 
 Also the IOT model using ESP32 cam modue allows standalone workload using micropython and tensorflow lite which can easily make a cheap and efficient device as being a chipset it won't distract students as much as they try to use their mobiles for concentration.
 
+![IMG_20230321_062749](https://user-images.githubusercontent.com/67046318/226521261-714c934f-fd96-4e85-a6c3-e9d682bb2b12.jpg)
+
+
 ## Prerequisite  for frontend:
  
 node version v16.9.1 
 npm version 7.21.1 
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
+![Screenshot (583)](https://user-images.githubusercontent.com/67046318/226520751-eda069e8-4328-41ef-8d6b-df383c5a681f.png)
+![Screenshot (584)](https://user-images.githubusercontent.com/67046318/226520884-5a8d4ab1-7d01-45ff-a580-d99cb4fa1dc2.png)
 
 
-## Backend Installation Guide
+## Frontend Installation Guide
 
 The first step is to clone the repository on the local server. 
 
